@@ -1,0 +1,24 @@
+{
+  "name": "Dev_pp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarsh9654/Dev_pp2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarsh9654/Dev_pp2/issues"
+  },
+  "homepage": "https://github.com/adarsh9654/Dev_pp2#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "request": "^2.88.2"
+  }
+}
