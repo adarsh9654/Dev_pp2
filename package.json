@@ -19,6 +19,10 @@
   "homepage": "https://github.com/adarsh9654/Dev_pp2#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.5.0",
     "puppeteer": "^8.0.0",
     "request": "^2.88.2"
   }
