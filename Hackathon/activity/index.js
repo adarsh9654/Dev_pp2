@@ -34,10 +34,10 @@ async  function startTracking(){
 async function sendNotification(price) {
 
     let transporter = nodemailer.createTransport({
-      service: 'gmail',
+     service: 'gmail',
       auth: {
-        user: '********@gmail.com',
-        pass: '********'
+        user: 'harshadmehta19992@gmail.com',
+        pass: 'scam@1992',
       }
     });
   
@@ -45,13 +45,14 @@ async function sendNotification(price) {
     let htmlText = `<a href=\"${url}\">Link</a>`;
   
     let info = await transporter.sendMail({
-      from: '"Price Tracker" <testertom2020@gmail.com>',
-      to: "********@gmail.com",
+      from: '"Price Tracker" <harshadmehta19992@gmail.com>',
+      to: "adarshmishra9654@gmail.com",
       subject: 'Price dropped to ' + price, 
       text: textToSend,
       html: htmlText
     });
   
     console.log("Message sent: %s", info.messageId);
+  
   }
 startTracking();
